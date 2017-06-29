@@ -38,7 +38,6 @@ export const SimpleSchemaFactory = {
 	defaultSchema(schemaObj = null) {
 		if (schemaObj && typeof schemaObj === 'object')
 			this._defaultSchema = schemaObj;
-		console.log(this._defaultSchema, SimpleSchema);
 		return this._useTracker
 			? new SimpleSchema(this._defaultSchema, {tracker: Tracker})
 			: new SimpleSchema(this._defaultSchema);
