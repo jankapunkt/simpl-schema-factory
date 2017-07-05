@@ -12,6 +12,10 @@ const SimpleSchema = require('simpl-schema').default;
 
 export const SimpleSchemaFactory = {
 
+	isSimpleSchema(schema) {
+		return schema && schema instanceof SimpleSchema;
+	},
+
 
 	//////////////////////////////////////////////////////////////////////////////
 
