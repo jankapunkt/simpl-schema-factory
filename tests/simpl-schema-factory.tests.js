@@ -73,6 +73,12 @@ describe("SimpleSchemaFactory", function() {
 		validateBySchema(defaultSchema, getDefaultPropsWith(), {});
 	});
 
+	it("tests isSimpleSchema", function() {
+		const docIdSchema = SimpleSchemaFactory.docId();
+		assert.isTrue(SimpleSchemaFactory.isSimpleSchema(docIdSchema));
+		assert.isFalse(SimpleSchemaFactory.isSimpleSchema({title:String}));
+	});
+
 	it("creates docId", function() {
 		const docIdSchema = SimpleSchemaFactory.docId();
 		validateBySchema(docIdSchema, {

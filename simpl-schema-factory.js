@@ -27,7 +27,7 @@ export const SimpleSchemaFactory = {
 
 	clear() {
 		this._defaultPublicFields = null;
-		this._defaultSchema = null;
+		this._defaultSchema = {};
 		this._useTracker = false;
 	},
 
