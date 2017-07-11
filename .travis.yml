@@ -23,4 +23,4 @@ install:
   - cd tests && npm install
 
 script:
-  - npm test
+  - npm testcli #use command line test
