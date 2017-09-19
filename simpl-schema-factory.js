@@ -116,4 +116,10 @@ export const SimpleSchemaFactory = {
 		this._useTracker = value;
 	},
 
+	//////////////////////////////////////////////////////////////////////////////
+
+	setDefaultMessages(messagesObj) {
+		SimpleSchema.setDefaultMessages(messagesObj);
+	},
+
 }
