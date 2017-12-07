@@ -110,6 +110,12 @@ export const SimpleSchemaFactory = {
 		SimpleSchema.extendOptions(['autoform']);
 	},
 
+	useWith(options){
+		if (typeof options === "string")
+			options = [options];
+		SimpleSchema.extendOptions(options);
+	},
+
 	_useTracker: false,
 
 	useWithTracker(value) {
