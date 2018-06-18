@@ -5,7 +5,7 @@ import {Tracker} from 'meteor/tracker';
 import {check, Match} from 'meteor/check';
 //import {Roles} from 'meteor/alanning:roles';
 
-checkNpmVersions({"simpl-schema": '0.x.x'}, 'jkuester:simpl-schema-factory');
+checkNpmVersions({"simpl-schema": '1.x.x'}, 'jkuester:simpl-schema-factory');
 
 const SimpleSchema = require('simpl-schema').default;
 
