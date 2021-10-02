@@ -1,3 +1,5 @@
+# THIS REPOSITORY IS ARCHIVED
+
 [![Build Status](https://travis-ci.org/jankapunkt/simpl-schema-factory.svg?branch=master)](https://travis-ci.org/jankapunkt/simpl-schema-factory)
 
 # simpl-schema-factory
